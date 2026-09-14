@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.so
+venv/
+.env
+*.env
+runs/
+
+# AI Models and Data
+data/videos/*
+data/snapshots/*
+!data/videos/.gitkeep
+!data/snapshots/.gitkeep
+ai/models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
